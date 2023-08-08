@@ -8,11 +8,11 @@
 STUDENT MARK LIST
 <hr />
 <?php
-$no=$_GET['t1'];
-$name=$_GET['t2'];
-$m1=$_GET['t3'];
-$m2=$_GET['t4'];
-$m3=$_GET['t5'];
+$no=$_POST['t1'];
+$name=$_POST['t2'];
+$m1=$_POST['t3'];
+$m2=$_POST['t4'];
+$m3=$_POST['t5'];
 $total=$m1+$m2+$m3;
 $avg=$total/3;
 if($avg>=80)
